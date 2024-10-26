@@ -9,20 +9,20 @@ import Pricing from "../components/ui/Pricing";
 import Testimonial from "../components/ui/Testimonial";
 import Footer from "../components/ui/Footer";
 import FooterCTA from "../components/ui/FooterCTA";
-
+import AboutUs from "../components/ui/aboutus";
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hero />
-      <GradientWrapper className='pb-0 sm:my-16'>
+      <GradientWrapper className="pb-0 sm:my-16">
         <CenteredCTA />
         <Stats />
       </GradientWrapper>
       <Features />
       <CTA />
       <Pricing />
-      <Testimonial />
+      <AboutUs />
       <FooterCTA />
       <Footer />
     </>
