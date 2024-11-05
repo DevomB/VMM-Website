@@ -13,7 +13,7 @@ const CenteredCTA = () => {
             </div>
             <div className="mt-4">
                 <NavLink href="#get-started" className="inline-block w-full font-medium text-sm text-white bg-sky-500 hover:bg-sky-600 active:bg-sky-700 shadow rounded-lg sm:w-auto">
-                    Try for free
+                    Subscribe
                 </NavLink>
             </div>
         </section>
