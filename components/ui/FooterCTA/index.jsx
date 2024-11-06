@@ -27,10 +27,6 @@ const Newsletter = () => {
                         Subscribe
                     </button>
                 </form>
-                <p className="mt-3 mx-auto text-center max-w-lg text-[15px] text-gray-400">
-                    No spam ever; we care about the protection of your data. 
-                    Read our <a className="text-indigo-600 underline" href="#"> Privacy Policy </a>.
-                </p>
             </div>
         </section>
     )

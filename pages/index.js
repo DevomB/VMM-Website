@@ -3,7 +3,7 @@ import GradientWrapper from "../components/GradientWrapper";
 import CenteredStats from "../components/ui/CenteredCTA";
 import Features from "../components/ui/Features";
 import Footer from "../components/ui/Footer";
-import FooterCTA from "../components/ui/FooterCTA";
+import Newsletter from "../components/ui/FooterCTA";
 import AboutUs from "../components/ui/aboutus";
 export default function Home() {
   return (
@@ -14,6 +14,7 @@ export default function Home() {
       </GradientWrapper>
       <Features />
       <AboutUs />
+      <Newsletter />
       <Footer />
     </>
   );
