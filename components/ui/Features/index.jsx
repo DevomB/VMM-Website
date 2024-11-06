@@ -29,7 +29,7 @@ const Features = () => {
   ];
 
   return (
-    <SectionWrapper>
+    <SectionWrapper className="-mt-10 -mb-10">
       <div className="custom-screen text-gray-600">
         <div className="max-w-2xl space-y-3">
           <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">

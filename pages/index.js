@@ -1,10 +1,7 @@
 import Hero from "../components/ui/Hero";
 import GradientWrapper from "../components/GradientWrapper";
-import CenteredCTA from "../components/ui/CenteredCTA";
-import Stats from "../components/ui/Stats";
+import CenteredStats from "../components/ui/CenteredCTA";
 import Features from "../components/ui/Features";
-import CTA from "../components/ui/CTA";
-import Pricing from "../components/ui/Pricing";
 import Footer from "../components/ui/Footer";
 import FooterCTA from "../components/ui/FooterCTA";
 import AboutUs from "../components/ui/aboutus";
@@ -13,14 +10,10 @@ export default function Home() {
     <>
       <Hero />
       <GradientWrapper className="pb-0 sm:my-16">
-        <CenteredCTA />
-        <Stats />
+        <CenteredStats/>
       </GradientWrapper>
       <Features />
-      <CTA />
-      <Pricing />
       <AboutUs />
-      <FooterCTA />
       <Footer />
     </>
   );
