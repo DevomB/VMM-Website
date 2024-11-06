@@ -6,10 +6,10 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Starboard</title>
+        <title>Virtual Medical Missions</title>
         <meta
           name='description'
-          content='With complete software that enables your teams to interact, plan, evaluate, and manage daily activities, you can break down large projects, quickly, and easily.'
+          content='Legacy of Healing'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
