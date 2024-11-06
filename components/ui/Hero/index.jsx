@@ -5,9 +5,9 @@ const Hero = () => {
     const [state, setState] = useState(false)
 
     const navigation = [
-        { title: "Partners", path: "javascript:void(0)" },
-        { title: "Customers", path: "javascript:void(0)" },
-        { title: "Team", path: "javascript:void(0)" },
+        { title: "About us", path: "javascript:void(0)" },
+        { title: "Partnering Physicians", path: "javascript:void(0)" },
+        { title: "FAQs", path: "javascript:void(0)" },
 
     ]
 
