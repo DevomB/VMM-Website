@@ -71,10 +71,10 @@ const Hero = () => {
                             Over 2000 Successful Diagnosises
                         </h1>
                         <h2 className="text-4xl text-gray-800 font-extrabold md:text-5xl">
-                            We help Tribal Kenyans get unsick
+                            Help us provide essential healthcare to rural communities
                         </h2>
                         <p>
-                            Kanye East {"\>"} Kanye West
+                            Placeholder For Addl info
                         </p>
                         <div className="items-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
                             <a href="javascript:void(0)" className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
