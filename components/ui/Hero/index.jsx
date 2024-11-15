@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { HandCoinsIcon } from "../DonateIcon/DonateIcon"
 
 const Hero = () => {
 
@@ -8,7 +9,6 @@ const Hero = () => {
         { title: "About us", path: "javascript:void(0)" },
         { title: "Partnering Physicians", path: "javascript:void(0)" },
         { title: "FAQs", path: "javascript:void(0)" },
-
     ]
 
     return (
@@ -18,7 +18,7 @@ const Hero = () => {
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                             <a href="javascript:void(0)">
                                 <img
-                                    src="https://www.floatui.com/logo.svg" 
+                                    src="image.png" 
                                     width={120} 
                                     height={50}
                                     alt="Float UI logo"
@@ -68,15 +68,16 @@ const Hero = () => {
                 <div className="max-w-screen-xl mx-auto text-gray-600 gap-x-12 items-center justify-between overflow-hidden md:flex md:px-8">
                     <div className="flex-none space-y-5 px-4 sm:max-w-lg md:px-0 lg:max-w-xl">
                         <h1 className="text-sm text-indigo-600 font-medium">
-                            Over 2000 Successful Diagnosises
+                            2000+ Successful Diagnoses
                         </h1>
                         <h2 className="text-4xl text-gray-800 font-extrabold md:text-5xl">
-                            Help us provide essential healthcare to rural communities
+                            Help us Provide Essential Healthcare to Rural Communities
                         </h2>
-                        <p>
+                        <br></br>
+                        {/* <p>
                             Placeholder For Addl info
-                        </p>
-                        <div className="items-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
+                        </p> */}
+                        {/* <div className="items-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
                             <a href="javascript:void(0)" className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
                                 Our Newsletter
                             </a>
@@ -86,12 +87,18 @@ const Hero = () => {
                                     <path fillRule="evenodd" d="M2 10a.75.75 0 01.75-.75h12.59l-2.1-1.95a.75.75 0 111.02-1.1l3.5 3.25a.75.75 0 010 1.1l-3.5 3.25a.75.75 0 11-1.02-1.1l2.1-1.95H2.75A.75.75 0 012 10z" clipRule="evenodd" />
                                 </svg>
                             </a>
+                        </div> */}
+                        <div className="items-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
+                            <a href="javascript:void(0)" className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none w-full flex items-center justify-center gap-2">
+                                <span>DONATE NOW</span>
+                                <HandCoinsIcon />
+                            </a>
                         </div>
                     </div>
                     <div className="flex-none mt-14 md:mt-0 md:max-w-xl">
                         <img
-                            src="https://images.unsplash.com/photo-1573164713619-24c711fe7878?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80"
-                            className=" md:rounded-tl-[108px]"
+                            src='mainHero.png'
+                            className="w-full"
                             alt=""
                         />
                     </div>

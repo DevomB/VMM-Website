@@ -33,7 +33,7 @@ const Features = () => {
       <div className="custom-screen text-gray-600">
         <div className="max-w-2xl space-y-3">
           <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-            Vital Access: Digital Care for All
+            Vital Access: Healthcare for All
           </h2>
           <p>
             Bringing critical healthcare access to underserved communities with
