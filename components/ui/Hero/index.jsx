@@ -21,7 +21,7 @@ const Hero = () => {
                                     src="image.png" 
                                     width={120} 
                                     height={50}
-                                    alt="Float UI logo"
+                                    alt="VMM logo"
                                 />
                             </a>
                         <div className="md:hidden">
@@ -89,7 +89,7 @@ const Hero = () => {
                             </a>
                         </div> */}
                         <div className="items-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
-                            <a href="javascript:void(0)" className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none w-full flex items-center justify-center gap-2">
+                            <a href="https://www.paypal.com/donate/?hosted_button_id=APSEPMV7BPV56" className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none w-full flex items-center justify-center gap-2">
                                 <span>DONATE NOW</span>
                                 <HandCoinsIcon />
                             </a>
