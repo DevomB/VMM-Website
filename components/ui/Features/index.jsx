@@ -12,11 +12,11 @@ const Features = () => {
     },
     {
       title: "Technical Excellence",
-      desc: "Our system is built and maintained by skilled developers utilizing NextJS, Tailwind, and TypeScript. This combination ensures a seamless, user-friendly experience, making it easy for physicians to navigate patient data and focus on delivering care.",
+      desc: "Our systems are built by skilled developers using premier frameworks and languages, ensuring a seamless, efficient experience for physicians to navigate patient data and focus on care.",
     },
     {
       title: "Data Security and Privacy",
-      desc: "We prioritize the confidentiality and integrity of sensitive medical information using secure backend technologies, including Express, Prisma ORM, and PostgreSQL. Our system is designed to safeguard patient data at every level.",
+      desc: "We prioritize the confidentiality and integrity of sensitive medical information using secure backend technologies, including Express, Prisma ORM, and PostgreSQL. Our system is designed to safeguard patient data at every level and strictly adheres to HIPPA guidelines.",
     },
     {
       title: "Scalability and Efficiency",
@@ -24,7 +24,7 @@ const Features = () => {
     },
     {
       title: "Empowering Volunteers",
-      desc: "By equipping medical students and partnering physicians with a powerful, intuitive tool, we enhance our ability to serve patients effectively. Our efforts have already impacted the health of over 500 individuals, with our team directly involved in providing care and building lasting community health solutions.",
+      desc: " By equipping medical students and partnering physicians with a powerful, intuitive tool, we enhance our ability to serve patients effectively. Our efforts have already impacted the health of over 2000 individuals and we are actively scaling our numbers.",
     },
   ];
   // const features = [
