@@ -46,3 +46,5 @@ const FaqsCard = (props) => {
         </div>
     )
 }
+
+export default FaqsCard

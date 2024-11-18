@@ -1,3 +1,5 @@
+import FaqsCard from "../components/ui/FAQ/FAQ"
+
 const FAQ = () => {
 
     const faqsList = [
