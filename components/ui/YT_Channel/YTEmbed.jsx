@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { ArrowLeftIcon } from "../Icons/LeftArrow";
+import { ArrowRightIcon } from "../Icons/RightArrow";
 
 const VideoPlayer = () => {
 	const videoList = [
@@ -25,7 +27,7 @@ const VideoPlayer = () => {
 				onClick={prevVideo}
 				className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center text-xl font-bold hover:bg-gray-400 transition"
 			>
-				&#8249;
+				<ArrowLeftIcon/>
 			</button>
 			<div className="w-[560px] h-[315px] relative">
 				<iframe
@@ -41,7 +43,7 @@ const VideoPlayer = () => {
 				onClick={nextVideo}
 				className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center text-xl font-bold hover:bg-gray-400 transition"
 			>
-				&#8250;
+				<ArrowRightIcon/>
 			</button>
 		</div>
 	);
