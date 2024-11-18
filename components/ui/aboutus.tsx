@@ -28,8 +28,9 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="mt-12 grid gap-8 sm:grid-cols-2 md:grid-cols-4">
-          {team.map((member) => (
+          {team.map((member, idx) => (
             <TeamCard
+              key={idx}
               name={member.name}
               role={member.title}
               image={member.avatar}

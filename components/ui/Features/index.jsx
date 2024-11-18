@@ -16,7 +16,7 @@ const Features = () => {
     },
     {
       title: "Data Security and Privacy",
-      desc: "We prioritize the confidentiality and integrity of sensitive medical information using secure backend technologies, including Express, Prisma ORM, and PostgreSQL. Our system is designed to safeguard patient data at every level and strictly adheres to HIPPA guidelines.",
+      desc: "We prioritize the confidentiality and integrity of sensitive medical information using secure backend technologies, including Type-Safety, Prisma ORM, and PostgreSQL. Our system is designed to safeguard patient data at every level and strictly adheres to HIPPA guidelines.",
     },
     {
       title: "Scalability and Efficiency",
