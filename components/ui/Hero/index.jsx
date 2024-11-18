@@ -4,6 +4,7 @@ import { HandCoinsIcon } from "../Icons/DonateIcon"
 const Hero = () => {
 
     const [state, setState] = useState(false)
+    const [isHovered, setIsHovered] = useState(false);
 
     const navigation = [
         { title: "About us", path: "javascript:void(0)" },
@@ -89,9 +90,14 @@ const Hero = () => {
                             </a>
                         </div> */}
                         <div className="items-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
-                            <a href="https://www.paypal.com/donate/?hosted_button_id=APSEPMV7BPV56" className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none w-full flex items-center justify-center gap-2">
+                            <a
+                                href="https://www.paypal.com/donate/?hosted_button_id=APSEPMV7BPV56"
+                                className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none w-full flex items-center justify-center gap-2"
+                                onMouseEnter={() => setIsHovered(true)}
+                                onMouseLeave={() => setIsHovered(false)}
+                            >
                                 <span>DONATE NOW</span>
-                                <HandCoinsIcon />
+                                <HandCoinsIcon isHoveredOver={isHovered} />
                             </a>
                         </div>
                     </div>

@@ -3,6 +3,7 @@
 import type { Variants } from 'framer-motion';
 import { motion, useAnimation } from 'framer-motion';
 import React from 'react'
+import { useEffect } from 'react';
 
 const circleVariants: Variants = {
   normal: {
@@ -56,15 +57,16 @@ const secondCircleVariants: Variants = {
   },
 };
 
-const HandCoinsIcon = () => {
+const HandCoinsIcon = ({isHoveredOver}) => {
+  
   const controls = useAnimation();
 
+  useEffect(() => {
+    controls.start(isHoveredOver ? 'animate' : 'normal');
+  }, [isHoveredOver, controls]);
+  
   return (
-    <div
-      className="cursor-pointer select-none p-2 hover:bg-accent rounded-md transition-colors duration-200 flex items-center justify-center"
-      onMouseEnter={() => controls.start('animate')}
-      onMouseLeave={() => controls.start('normal')}
-    >
+    <div className="cursor-pointer select-none p-2 hover:bg-accent rounded-md transition-colors duration-200 flex items-center justify-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="28"
