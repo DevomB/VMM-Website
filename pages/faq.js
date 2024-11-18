@@ -1,7 +1,6 @@
 import FaqsCard from "../components/ui/FAQ/FAQ"
 
 const FAQ = () => {
-
     const faqsList = [
         {
             q: "What are some random questions to ask?",
@@ -48,3 +47,5 @@ const FAQ = () => {
         </section>
     )
 }
+
+export default FAQ;
