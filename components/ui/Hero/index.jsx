@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { HandCoinsIcon } from "../DonateIcon/DonateIcon"
+import { HandCoinsIcon } from "../Icons/DonateIcon"
 
 const Hero = () => {
 
